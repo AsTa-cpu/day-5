@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.white {
+  background-color: white;
+}
+.dark {
+  background-color: black;
+}
+body {
+  font-family: ro;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 30px;
+}
+.nav ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+.dark a {
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: underline;
+}
+.dark .nav-button {
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+}
+.let {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.nav-button {
+  background-color: white;
+  border: 1px solid black;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+.hero {
+  display: flex;
+  align-items: start;
+  padding: 50px 30px 0px 120px;
+}
+.cta-section {
+  width: 60%;
+}
+.image-section {
+  width: 40%;
+}
+.image-section img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+.cta-section,
+.cta-text h2 {
+  font-size: 35px;
+  font-weight: 800px;
+  text-transform: uppercase;
+}
+.cta-text-two {
+  margin-top: 18px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.dark .cta-button {
+  border: 1px solid white;
+}
+.cta-button {
+  background-color: transparent;
+  border: 1px solid black;
+  display: flex;
+  width: 230px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.dark .cta-button .black {
+  background-color: white;
+  color: black;
+}
+.cta-button .black {
+  background-color: black;
+  color: white;
+  width: 55%;
+  text-align: center;
+  padding: 10px;
+}
+.dark .cta-button .white {
+  background-color: black;
+  color: white;
+}
+.cta-button .white {
+  background-color: white;
+  color: black;
+  width: 45%;
+  text-align: center;
+  padding: 10px;
+}
+.dark .skills {
+  background-color: white;
+  color: black;
+}
+.skills {
+  background-color: black;
+  color: white;
+  transform: rotate(-3deg);
+}
+.skills ul {
+  display: flex;
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 18px 0;
+  justify-content: space-between;
+}
+.three {
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.three-one {
+  width: 40%;
+}
+.p-1 {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 550;
+}
+.p-2 {
+  margin-top: 20px;
+  font-size: 60px;
+  font-weight: 800;
+}
+.three-two {
+  width: 50%;
+}
+.p-3 {
+  font-size: 29px;
+  font-weight: 450;
+}
+.p-4 {
+  margin-top: 35px;
+  font-size: 16px;
+  font-weight: 100;
+}
+.main-div {
+  margin-top: 35px;
+  display: flex;
+  background-color: transparent;
+  justify-content: space-between;
+}
+.p-top {
+  color: red;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+.dark h1,
+.dark h2,
+.dark p {
+  color: white;
+}
+.p-bottom {
+  margin-top: 8px;
+  font-size: 21px;
+  font-weight: 600;
+}
+.dark .four {
+  border-color: white;
+}
+.four {
+  background-color: transparent;
+  border: 1.4px solid black;
+  width: 80%;
+  margin-top: 87px;
+  display: flex;
+  justify-self: center;
+}
+.mid {
+  display: flex;
+  justify-content: center;
+}
+.four div {
+  text-align: center;
+  align-items: center;
+  width: 33.3%;
+  padding: 30px 0px;
+}
+.dark .four-black {
+  background-color: white;
+  color: black;
+}
+.four-black {
+  background-color: black;
+  color: white;
+}
+
+.big {
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+.dark .mm,
+.dark .mm {
+  color: black;
+}
+.theme {
+  border: none;
+  border-radius: 20px;
+  width: 60px;
+  height: 30px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 5px;
+  position: relative;
+}
+.theme p {
+  background-color: rgb(164, 164, 255);
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  position: absolute;
+  transition: left 0.5s ease;
+}
+
+.light .theme p {
+  left: 0px;
+}
+.dark .theme p {
+  left: 30px;
+}
+.dark .theme {
+  background-color: rgb(64, 64, 250);
+}
